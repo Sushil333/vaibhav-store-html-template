@@ -169,6 +169,54 @@ body {
   font-size: 1.3em;
   font-weight: bold;
 }
+/* 
+.address-card .cicon {
+  background: var(--chocolate-bg);
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: white;
+} */
+
+.title-name {
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: 'Montserrat';
+  line-height: .8em;
+}
+
+.bill-details h5{
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.counter input {
+  outline: none;
+  border: 1px solid #ccc;
+  width: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.counter button {
+  height: 32px;
+  width: 32px;
+  border: none;
+  font-size: 1.5em;
+  line-height: .4em;
+  padding: .3em;
+  background: var(--yellow-bg);
+  color: #fff;
+}
+.product {
+  font-size: 1.2rem;
+}
 /* ----- boostrap overrides starts ----- */
 .btn {
   background-color: var(--yellow-bg);

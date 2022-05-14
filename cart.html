@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="cart-card bg-white px-5 p-4 m-5">
+                <div class="cart-card bg-white px-5 p-4 my-5 mx-3">
 
                     <div class="cart-side-icon">
                         <i class="fa-solid fa-user"></i>
@@ -86,7 +86,7 @@
                 </div>
 
                 <!-- location card starts -->
-                <div class="cart-card bg-white px-5 p-4 m-5">
+                <div class="cart-card bg-white px-5 p-4 my-5 mx-3">
 
                     <div class="cart-side-icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -123,22 +123,11 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="card flex-row border px-3 py-4 mt-3 address-card">
-                                <div class="card-img-top mt-2">
-                                    <i class="fa-solid fa-house"></i>
+                            <div class="card flex-column border px-3 py-4 mt-3 text-center address-card">
+                                <div class="cicon">
+                                    <i class="fa-3x fa-solid fa-add mb-4"></i>
                                 </div>
-                                <div class="card-body p-1">
-                                    <h5 class="card-title mt-0">Home</h5>
-                                    <span class="text-muted d-block mb-3">Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Et earum sed
-                                        molestias
-                                        animi,
-                                        veniam in, accusantium optio dignissimos ad fuga
-                                    </span>
-                                    <div>
-                                        <button class="btn btn-primary btn-sm">DELIVERE HERE</button>
-                                    </div>
-                                </div>
+                                <button class="btn btn-primary">+ ADD ADDRESS</button>
                             </div>
                         </div>
                     </div>
@@ -147,7 +136,7 @@
 
 
                 <!-- payment card starts -->
-                <div class="cart-card bg-white px-5 p-4 m-5">
+                <div class="cart-card bg-white px-5 p-4 my-5 mx-3">
 
                     <div class="cart-side-icon">
                         <i class="fa-solid fa-wallet"></i>
@@ -161,7 +150,91 @@
                 </div>
                 <!-- payment card ends -->
             </div>
-            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <div class="checkout-box d-flex flex-column mt-5 bg-white p-4">
+                    <div class="checkout-title d-flex gap-2">
+                        <div>
+                            <img src="https://www.w3schools.com/css/paris.jpg" height="48" width="48">
+                        </div>
+                        <div>
+                            <div class="title-name">Express culture</div>
+                            <small class="text-muted">Shivagi Nagar</small>
+                        </div>
+                    </div>
+
+                    <!-- products list start -->
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="product">Chana dal</div>
+                        <div class="d-flex counter justify-content-between">
+                            <button>+</button>
+                            <input type="text" value="1" min="1" />
+                            <button>-</button>
+                        </div>
+                        <div class="price text-muted">$120</div>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="product">Chana dal</div>
+                        <div class="d-flex counter justify-content-between">
+                            <button>+</button>
+                            <input type="text" value="1" min="1" />
+                            <button>-</button>
+                        </div>
+                        <div class="price text-muted">$120</div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="product">Chana dal</div>
+                        <div class="d-flex counter justify-content-between">
+                            <button>+</button>
+                            <input type="text" value="1" min="1" />
+                            <button>-</button>
+                        </div>
+                        <div class="price text-muted">$120</div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="product">Chana dal</div>
+                        <div class="d-flex counter justify-content-between">
+                            <button>+</button>
+                            <input type="text" value="1" min="1" />
+                            <button>-</button>
+                        </div>
+                        <div class="price text-muted">$120</div>
+                    </div>
+
+                    <hr />
+                    <!-- product list ends -->
+
+                    <!-- bill section starts -->
+                    <div class="bill-details">
+                        <h5 class="my-4">Bill Details</h5>
+
+                        <div class="d-flex flex-column gap-1 text-muted">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>Total Items</div>
+                                <div>$123</div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>Delivery Fees</div>
+                                <div>$123</div>
+                            </div>
+                            <hr />
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>Tax & charges</div>
+                                <div>$123</div>
+                            </div>
+                            <div style="height: 3px; width: 100%; background: grey;" class="my-3"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div><b>Tax & charges</b></div>
+                                <div><b>$123</b></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- bill section ends -->
+                    <button class="mt-5 btn btn-success">Place Order</button>
+                </div>
+
+            </div>
         </div>
     </div>
 
