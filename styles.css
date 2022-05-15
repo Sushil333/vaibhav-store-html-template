@@ -217,14 +217,29 @@ body {
 .product {
   font-size: 1.2rem;
 }
+
+/* ---- profile page starts---- */
+.profile-page {
+  background: #37718e;
+  min-height: 100vh;
+  padding: 3em 20px;
+  color: white;
+}
+
+.profile-title h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+/* ----- profile page ends ----- */
+
 /* ----- boostrap overrides starts ----- */
-.btn {
+.btn-primary {
   background-color: var(--yellow-bg);
   transition: background-color 0.3s ease;
   color: white;
   border: none;
 }
-.btn:hover {
+.btn-primary:hover {
   background-color: var(--chocolate-bg);
 }
 
